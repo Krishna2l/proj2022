@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/lp.css">
+    <link rel="stylesheet" href="./su.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Jura&family=Poppins:wght@200&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Add Patient</title>
+</head>
+
+<body>
+    <div class="jumbotron text-center">
+        <img src="./images/logo.png" width="280px" height="90px" class="logoimg">
+    </div>
+
+    <div class="container" style="background-image: url('./images/stethoscope.jpeg'); 
+    background-repeat: no-repeat; background-size: cover;">
+        <div class="col-lg-6">
+            <form>
+                <div class="form-group">
+                    <label for="Pname">Name</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="Gender">Gender</label>
+                    <input type="text" class="form-control" id="gender">
+                </div>
+
+                <div class="form-group">
+                    <label for="PEmail">Email</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="Ddate">Last Diagnosis</label>
+                    <input type="date" class="form-control" id="date">
+                </div>
+            </form>
+        </div>
+        <div class="col-lg-6">
+            <form>
+                <div class="form-group">
+                    <label for="PAge">Age</label>
+                    <input type="number" class="form-control" id="page">
+                </div>
+                <div class="form-group">
+                    <label for="Contact">Contact Number</label>
+                    <input type="tel" class="form-control" id="phone">
+                </div>
+                <div class="form-group">
+                    <label for="Disease">Prognosis</label>
+                    <input type="text" class="form-control" id="disease">
+                </div>
+                <div class="form-group">
+                    <label for="Status">Status</label>
+                    <input type="text" class="form-control" id="status">
+                </div>
+            </form>
+
+        </div>
+        <form>
+            <button type="submit" class="btn btn-lg reg">Add Patient</button>
+        </form>
+    </div>
+
+</body>

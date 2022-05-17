@@ -1,0 +1,47 @@
+h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.log {
+    position: absolute;
+    left: 1245px;
+    top: 30px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding: 10px 16px;
+    font-size: 17px;
+    text-align: center;
+    color: #000000;
+    background-color: rgb(240, 182, 192);
+    border-radius: 10px;
+}
+
+.container {
+    background-color: #B1E7CD;
+}
+
+.homelun {
+    margin-inline: 550px;
+    margin-top: -70px;
+}
+
+.home1 {
+    float: right;
+    width: 650px;
+    height: 180px;
+}
+
+.home2 {
+    width: 650px;
+    height: 180px;
+    margin-top: -55px;
+}

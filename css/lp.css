@@ -1,0 +1,151 @@
+.html {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.jumbotron {
+    position: absolute;
+    width: 1350px;
+    height: 100px;
+    background: #B1E7CD;
+}
+
+.abt {
+    position: absolute;
+    left: 1170px;
+    top: 30px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    color: #000000;
+    background-color: rgb(240, 182, 192);
+    border-radius: 30px;
+    padding: 12px 28px;
+}
+
+.logoimg {
+    position: relative;
+    top: -45px;
+}
+
+.container {
+    position: absolute;
+    width: 1350px;
+    height: 829px;
+    top: 100px;
+}
+
+.h1 {
+    position: absolute;
+    width: 506px;
+    height: 82px;
+    left: 91px;
+    font-family: 'Jura', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 41px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.login {
+    position: absolute;
+    width: 378px;
+    height: 71px;
+    left: 960px;
+    top: 60px;
+    font-family: 'Inter';
+
+    font-weight: 300;
+    line-height: 48px;
+    align-items: center;
+
+}
+
+input {
+    width: 80%;
+    border-radius: 50px;
+    font-size: larger;
+    padding-left: 15px;
+}
+
+.btn-secondary {
+    padding: 12px 28px;
+    margin-top: 20px;
+    align-self: center;
+    background: #FBC6BC;
+    border-radius: 10px;
+    margin-left: 95px;
+}
+
+.dictiontype {
+    position: absolute;
+    left: 890px;
+    top: 450px;
+
+}
+
+.chattype {
+    position: absolute;
+    width: 812px;
+    height: 268px;
+    left: 30px;
+    top: 80px;
+}
+
+h4 {
+    margin-left: 45px;
+}
+
+.topnav {
+    background-color: #7ae3b2;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-inline: -15px;
+
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-inline: 15px;
+
+}
+
+.nav {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+    background-color: rgb(240, 182, 192);
+    border-radius: 10px;
+}
+
+.active {
+    background-color: #fdaba0;
+}
+
+.adimage {
+    width: 100%;
+}
+
+.adimage img {
+    width: 100%;
+    height: auto;
+}
