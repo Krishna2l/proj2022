@@ -8,7 +8,7 @@
 
 .jumbotron {
     position: absolute;
-    width: 1350px;
+    width: 100%;
     height: 100px;
     background: #B1E7CD;
 }
@@ -37,7 +37,7 @@
 
 .container {
     position: absolute;
-    width: 1350px;
+    width: 100%;
     height: 829px;
     top: 100px;
 }
